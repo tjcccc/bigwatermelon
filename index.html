@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>快速合成大西瓜</title>
+    <title>合成二刺螈</title>
 
     <!--http://www.html5rocks.com/en/mobile/mobifying/-->
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
@@ -70,8 +70,6 @@
         <div id="block-Box" style="display:block;width:100%;height:100%;"></div>
     </div>
 
-
-
     <div id="adContainer" style="display:none;position: absolute;top:0px;left: 0px;width:100%;height:100%;z-index:999;"></div>
     <div id="loadingText" style="width:100%;display: none;text-align:center;position:absolute;top:45%;z-index:2;font-size:20px;color:#f99f0a">
         loading......0%
@@ -86,9 +84,6 @@
     <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
         <img src="res/loading.gif" width="7%" height="7%" />
     </div>
-
-
-
 
     <!--<div align="center" style="font-size: 10px;color: dimgrey">advertisement</div>-->
 
@@ -106,27 +101,25 @@
         judgeLanTitle();
 
         function judgeLanTitle() {
-            alert("点击宝箱,切换西瓜。破坏游戏体验，谨慎尝试。")
+            alert("点击宝箱，切换二刺螈。破坏游戏体验，谨慎尝试。")
 
             //        console.log("window.navigator.language",window.navigator.language);
 
             if (window.navigator.language == "zh-CN" || window.navigator.language == "zh-cn") {
-                document.title = "快速合成大西瓜";
+                document.title = "合成二刺螈";
             } else if (window.navigator.language == "zh-TW") {
-                document.title = "快速合成大西瓜";
+                document.title = "合成二刺螈";
             } else if (window.navigator.language == "zh-HK") {
-                document.title = "快速合成大西瓜";
+                document.title = "合成二刺螈";
             } else if (window.navigator.language == "ko-KR") {
-                document.title = "작은 놀이：큰 수박 을 합성 하 다";
+                document.title = "合成二刺螈";
             } else if (window.navigator.language == "ja-JP") {
-                document.title = "ミニゲーム：合成スイカ";
+                document.title = "ミニゲーム：合成二刺螈";
             } else if (window.navigator.language == "th-TH") {
-                document.title = "เกมเล็กๆ：แตงโมสังเคราะห์";
+                document.title = "合成二刺螈";
             } else {
-                document.title = "Little game：Synthetic watermelon";
+                document.title = "Little game：Synthetic Erciyuan";
             }
-
-
         }
 
         var loadintT = document.getElementById("loadingText");
@@ -208,19 +201,12 @@
                 tempSeconds = percent;
             }
         }
-
-
         /*setTimeout("ShowBannerAD()","2000");*/
     </script>
-
-
-
-
 
     <script src="src/settings.js" charset="utf-8"></script>
 
     <script src="main.js" charset="utf-8"></script>
-
 
     <script type="text/javascript">
         (function() {
@@ -231,7 +217,6 @@
 
             var splash = document.getElementById('splash');
             splash.style.display = 'block';
-
 
             console.log("indexlTextTTTT");
 
@@ -248,9 +233,6 @@
             document.body.appendChild(cocos2d);
         })();
     </script>
-
-
-
 
 </body>
 
